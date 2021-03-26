@@ -1,0 +1,195 @@
+/* // Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 480px){
+  .bg-inverse {
+    background: #ffffff;
+  }
+  .navbar-expand-md .navbar-nav .nav-link{
+    color: #2d2d2d;
+  }
+  .navbar-expand-md .navbar-nav .nav-link.active{
+    color: #2d2d2d;
+  }
+  .navbar {
+    padding: 10px 0px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-expand-md .navbar-brand,
+  .navbar-expand-md .navbar-toggler {
+    margin: 6px 15px;
+  }
+
+  .hero-area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(rgba(45,45,45,.8),rgba(45,45,45,.4)),
+                url(../img/hero-area.png) left / cover;
+    position: relative;
+    z-index:1;}
+
+  .overlay{
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+    top: 80vh;
+    z-index: 2;}
+
+  .hero-area .contents h2 {font-size: 30px;}
+  .hero-area .contents {padding: 10rem 0;}
+
+  #features{margin-top: 1rem;}
+  #features .feature-item {height: 25rem;}
+  #features .section-services{padding-bottom: 0;}
+
+  .desc-quienes{ padding-left: 0rem; }
+  #quienes .quienes-img{
+    position: relative;}
+  #quienes .intro-img-one{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;}
+   #quienes .intro-img-two{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;}
+  .rect-one:before{display: none;}
+  .rect-two:before{display: none;}
+
+  #client-testimonial {width: 100%;margin-top: -7px;}
+  .testimonial-videoitem{
+  width: 100vw;
+  height: 50vh; }
+  #contact {
+    margin-top: -100px;
+    padding-top: 150px;
+    background: linear-gradient(rgba(45,45,45,.4),rgba(45,45,45,.4)),
+                  url(../img/contacto-min.png) top / cover;
+    min-height: 90vh;}
+
+  .footer-inner{padding:0;}
+  .widget-border{border-left: 0;}
+  .footer-logo{padding-bottom: 3rem;}
+  .widget{padding-top: 2rem;}
+  .widget-left{padding-left: 0rem;}
+
+  /* Subpage */
+  .hero-area-subpage .contents-subpage{
+  padding-top: 8rem;}
+  .hero-area-subpage .contents-subpage p {
+  padding-right: 0; }
+  #info-section{
+    margin-top: 2rem;}
+  .infopanel .infoa-item-one span, .infopanel .infod-item-four span{
+    margin-left: 0px;}
+  
+  .infopanel .infob-item-two span, .infopanel .infoe-item-five span {
+    margin-left: 0px;}
+
+  .infopanel .infoc-item-three span, .infopanel .infof-item-six span {
+    margin-left:0px;}
+  .infopanel .infod-item-four span {padding-top: 2rem;}
+  .scrollarrow{display: none;}
+
+  #review .desc-text{width:70%;}
+  #review .desc-text span{line-height: 10px;}
+  #how-works .desc-text p, #criteria .desc-text p, #showcase .desc-text p, #pricing .desc-text p{
+    width: 100%;}
+  #showcase .showcase-area{padding-top: 4rem;}
+  .hero-area-subpagetwo .contents-subpagetwo h2{padding-right: 0;}
+  }
+/* // Small devices (landscape phones, less than 768px) */
+@media and (min-height: 812px){
+  #features{margin-top: -10rem;}
+}
+
+/* // Medium devices (tablets, less than 992px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .bg-inverse {
+    background: #ffffff;
+  }
+  .navbar-expand-md .navbar-nav .nav-link{
+    color: #2d2d2d;
+  }
+  .navbar-expand-md .navbar-nav .nav-link.active{
+    color: #2d2d2d;
+  }
+  .navbar {
+    padding: 10px 0px;
+  }
+  .navbar-brand img {
+    width: 100px;
+  }
+  .navbar-expand-md .navbar-brand,
+  .navbar-expand-md .navbar-toggler {
+    margin: 6px 15px;
+  }
+
+  .hero-area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    min-height: 70vh;
+    background: linear-gradient(rgba(45,45,45,.8),rgba(45,45,45,.4)),
+                url(../img/hero-area.png) left / cover;
+    position: relative;
+    z-index:1;}
+
+  .overlay{
+    position: absolute;
+    width: 100vw;
+    overflow: hidden;
+    top: 53vh;
+    z-index: 2;}
+
+  .hero-area .contents h2 {font-size: 30px;}
+  .hero-area .contents {padding: 16rem 0;}
+
+  #features .feature-item {height: 25rem;}
+  #features .section-services{padding-bottom: 0; margin-top:0;}
+
+  .desc-quienes{ padding-left: 0rem; }
+  #quienes .quienes-img{
+    position: relative;}
+  #quienes .intro-img-one{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;}
+   #quienes .intro-img-two{
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;}
+  .rect-one:before{display: none;}
+  .rect-two:before{display: none;}
+
+  #client-testimonial {width: 100%;margin-top: -35px;}
+  .testimonial-videoitem{
+  width: 100vw;
+  height: 50vh; }
+  #contact {
+    margin-top: -150px;
+    padding-top: 50px;
+    background: linear-gradient(rgba(45,45,45,.4),rgba(45,45,45,.4)),
+                  url(../img/contacto-min.png) top / cover;
+    min-height: 70vh;}
+
+  .footer-inner{padding:0;}
+  .widget-border{border-left: 0;}
+  .footer-logo{padding-bottom: 3rem;}
+  .widget{padding-top: 2rem;}
+  .widget-left{padding-left: 0rem;}
+
+  #review .desc-text span{line-height: 10px;}
+  .hero-area-subpagetwo .contents-subpagetwo h2{padding-right: 0;margin: 0 auto;}
+  .hero-area-subpagetwo{min-height: 48vh;}
+  #info-section {margin-top: -24rem;}
+
+}
